@@ -24,7 +24,7 @@ app.get('/quizlet', function(req, res){
 	}, function(error, response, body){
 	    if(error) {
 	        console.log(error);
-	        res.status(500).end("500 - u got swooped boys");
+	        res.status(500).end("500");
 	    } else {
 	        console.log(response.statusCode, body);
 	         var msg = {};

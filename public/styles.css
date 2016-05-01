@@ -1,0 +1,56 @@
+body, html {
+	margin:0;
+	padding:0;
+	font-family: 'Anonymous Pro' ;
+	/**credits to google images for this amazing balls to the wall imagery image*/
+	background-image: url(background.jpg);
+}
+
+.intro {
+	text-align: center;
+	padding-top:15%;
+	color: white;
+  padding-left: 60px;
+
+}
+
+.intro h1 {
+	font-size: 40px;
+}
+
+.intro h5 {
+	font-size:20px;
+}
+
+
+/*button*/
+.btn {
+  border-radius: 5px;
+  padding: 30px 40px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+#userInfoButton {
+  border-radius: 1px;
+}
+/** mobile support*/

@@ -1,0 +1,11 @@
+{
+  "name": "quizzy",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "dependencies": {
+    "request":"2.72.0",
+    "express":"4.13.4",
+    "body-parser":"1.15.0"
+  }
+}

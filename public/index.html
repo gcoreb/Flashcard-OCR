@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quizzy</title>
+
+		<!--css links-->
+		<link href='https://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
+		<link href="styles.css" rel='stylesheet' type='text/css'>
+
+		<!--jquery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+		<!--rest of the fucking javascript-->
+		<script>
+			if($(window).width() < 1024){
+				$(function() {
+					jQuery.fx.off = true;
+				});
+			}
+		</script>
+		<script src="anim.js"></script>
+	</head>
+
+	<body>
+	<div class="intro" id="intro">
+		<h1>Quizzy</h1>
+		<h5>A simple and seamless way to upload vocab sheets to quizlet; take the hassle out of manually inputting your vocab words, simply upload the image</h5>
+		<h5>BTW, if the "Next" button doesn't work, download the source code <a style="border-bottom: 1px #16a085 dotted; text-decoration: none; color:#16a085" href="https://www.github.com/kushaltirumala">here</a> and spin up the server locally</h5>
+
+
+		<a href="analyze.html" id="button"class="btn blue">Try it</a>
+	</div>	
+
+
+
+
+
+	</body>
+</html>
